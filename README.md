@@ -1,10 +1,10 @@
 # VLSI-LAB-EXP-4
 SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
-AIM: 
+**AIM:** 
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 
 Xilinx 14.7
 Spartan6 FPGA
@@ -16,6 +16,7 @@ Spartan6 FPGA
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
 
 **PROGRAM**:
+
 module sr_ff(clk,q,rst,s,r);
 
 input s,r,clk,rst;
@@ -109,6 +110,7 @@ endmodule
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
 
 **PROGRAM**:
+
 module t_ff(clk,q,rst,t);
 
 input t,clk,rst;
@@ -239,9 +241,10 @@ end
 endmodule
 
 **OUTPUT**:
+
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/f28376c4-a4c5-4075-a1f6-6956b9e62ba1)
 
-PROCEDURE:
+# PROCEDURE:
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -254,6 +257,8 @@ STEP:9  In the Design Object List Window, enter the pin location for each pin in
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
-RESULT
+# RESULT
+ 
+ simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using VIVADO is successfully verified.
 
 
