@@ -15,8 +15,6 @@ SR FLIPFLOP
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/160568677/bb6a5214-b2e8-4b25-b4b5-14f846df38a2)
-
 JK FLIPFLOP
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
