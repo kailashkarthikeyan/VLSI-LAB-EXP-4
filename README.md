@@ -15,42 +15,6 @@ SR FLIPFLOP
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
 
-module sr_ff(clk,q,rst,s,r);
-
-input s,r,clk,rst;
-
-output reg q;
-
-always@(posedge clk)
-
-begin
-
-if(rst==1)
-
-q=1'b0;
-
-else
-
-begin
-
-case({s,r})
-
-2'b00:q=q;
-
-2'b01:q=1'b0;
-
-2'b10:q=1'b1;
-
-2'b11:q=1'bx;
-
-endcase
-
-end
-
-end
-
-endmodule
-
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/160568677/bb6a5214-b2e8-4b25-b4b5-14f846df38a2)
 
 JK FLIPFLOP
