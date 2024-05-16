@@ -1,5 +1,4 @@
-# VLSI-LAB-EXP-4
-SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
+# SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
 **AIM:** 
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
@@ -16,7 +15,7 @@ Spartan6 FPGA
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
 
 **PROGRAM**:
-
+```
 module sr_ff(clk,q,rst,s,r);
 
 input s,r,clk,rst;
@@ -52,7 +51,7 @@ end
 end
 
 endmodule
-
+```
 **OUTPUT**:
 
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/56f543ff-719a-4c0a-bbae-eb03a2931bd1)
@@ -63,7 +62,7 @@ endmodule
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
 
 **PROGRAM**:
-
+```
 module jk_ff(clk,q,rst,j,k);
 
 input j,k,clk,rst;
@@ -99,7 +98,7 @@ end
 end
 
 endmodule
-
+```
 **OUTPUT**:
 
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/ce453a19-305b-454a-bd5d-1c4286b6fe23)
@@ -110,7 +109,7 @@ endmodule
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
 
 **PROGRAM**:
-
+```
 module t_ff(clk,q,rst,t);
 
 input t,clk,rst;
@@ -138,7 +137,7 @@ q=~q;
 end
 
 endmodule
-
+```
 **OUTPUT**:
 
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/ecb729a9-8322-496c-a4d4-c5a3eafad72f)
@@ -148,7 +147,7 @@ endmodule
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
 
 **PROGRAM**:
-
+```
 module d_ff(clk,q,rst,d);
 
 input d,clk,rst;
@@ -170,7 +169,7 @@ q=d;
 end
 
 endmodule
-
+```
 **OUTPUT**:
 
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/6aa46aa7-cd58-451b-8b73-702d74e8a4c5)
@@ -181,7 +180,7 @@ endmodule
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/b6854c7a-c9ce-41d4-8dcb-46907663dc6f)
 
 **PROGRAM**:
-
+```
 module mod_10(clk,rst,out);
 
 input clk,rst;
@@ -203,7 +202,7 @@ out=out+1;
 end
 
 endmodule
-
+```
 **OUTPUT**:
 
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/44b20615-9223-481d-b971-0c99b99a3613)
@@ -213,7 +212,7 @@ endmodule
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/dc7a4e55-be39-4ccb-851e-5dbe336b710a)
 
 **PROGRAM**:
-
+```
 module updown_counter(clk,rst,ud,out); 
 
 input clk,rst,ud; o
@@ -239,7 +238,7 @@ out=out-1;
 end 
 
 endmodule
-
+```
 **OUTPUT**:
 
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/f28376c4-a4c5-4075-a1f6-6956b9e62ba1)
