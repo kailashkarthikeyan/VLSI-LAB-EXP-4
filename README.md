@@ -8,7 +8,7 @@
 Xilinx 14.7
 Spartan6 FPGA
 
-# PROCEDURE:
+**PROCEDURE:**
 
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 
@@ -189,7 +189,7 @@ endmodule
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-4/assets/160568677/f28376c4-a4c5-4075-a1f6-6956b9e62ba1)
 
 
-# RESULT
+**RESULT**
  
  simulation and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using VIVADO is successfully verified.
 
