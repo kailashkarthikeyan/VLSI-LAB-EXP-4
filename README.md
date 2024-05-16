@@ -41,39 +41,22 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 **PROGRAM**:
 ```
 module sr_ff(clk,q,rst,s,r);
-
 input s,r,clk,rst;
-
 output reg q;
-
 always@(posedge clk)
-
 begin
-
 if(rst==1)
-
 q=1'b0;
-
 else
-
 begin
-
 case({s,r})
-
 2'b00:q=q;
-
 2'b01:q=1'b0;
-
 2'b10:q=1'b1;
-
 2'b11:q=1'bx;
-
 endcase
-
 end
-
 end
-
 endmodule
 ```
 **OUTPUT**:
@@ -88,39 +71,22 @@ endmodule
 **PROGRAM**:
 ```
 module jk_ff(clk,q,rst,j,k);
-
 input j,k,clk,rst;
-
 output reg q;
-
 always@(posedge clk)
-
 begin
-
 if(rst==1)
-
 q=1'b0;
-
 else
-
 begin
-
 case({j,k})
-
 2'b00:q=q;
-
 2'b01:q=1'b0;
-
 2'b10:q=1'b1;
-
 2'b11:q=~q;
-
 endcase
-
 end
-
 end
-
 endmodule
 ```
 **OUTPUT**:
@@ -135,31 +101,18 @@ endmodule
 **PROGRAM**:
 ```
 module t_ff(clk,q,rst,t);
-
 input t,clk,rst;
-
 output reg q;
-
 always@(posedge clk)
-
 begin
-
 if(rst==1)
-
 q=1'b0;
-
 else
-
 if(t==0)
-
 q=q;
-
 else
-
 q=~q;
-
 end
-
 endmodule
 ```
 **OUTPUT**:
@@ -173,25 +126,15 @@ endmodule
 **PROGRAM**:
 ```
 module d_ff(clk,q,rst,d);
-
 input d,clk,rst;
-
 output reg q;
-
 always@(posedge clk)
-
 begin
-
 if(rst==1)
-
 q=1'b0;
-
 else
-
 q=d;
-
 end
-
 endmodule
 ```
 **OUTPUT**:
@@ -206,25 +149,15 @@ endmodule
 **PROGRAM**:
 ```
 module mod_10(clk,rst,out);
-
 input clk,rst;
-
 output reg[3:0]out;
-
 always@(posedge clk)
-
 begin
-
 if(rst==1|out==9)
-
 out=4'b0;
-
 else
-
 out=out+1;
-
 end
-
 endmodule
 ```
 **OUTPUT**:
@@ -238,29 +171,17 @@ endmodule
 **PROGRAM**:
 ```
 module updown_counter(clk,rst,ud,out); 
-
-input clk,rst,ud; o
-
+input clk,rst,ud; 
 Output reg[3:0]out;
-
 always@(posedge clk)
-
 begin 
-
 if(rst==1) 
-
 out=4'b0;
-
 else if (ud==1) 
-
 out=out+1;
-
 else if(ud==0) 
-
 out=out-1; 
-
 end 
-
 endmodule
 ```
 **OUTPUT**:
